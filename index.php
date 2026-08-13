@@ -24,6 +24,11 @@
     <input type="text" name="kelas">
     <br><br>
 
+    <label>Alamat</label>
+    <br>
+    <input Type="text" name ="alamat">
+    <br><br>
+
     <button type="submit">Simpan</button>
 </form>
 

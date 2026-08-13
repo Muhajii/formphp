@@ -18,10 +18,11 @@ $query = mysqli_query($koneksi, $sql);
         <meta charset="UTF-8">
         <title>Daftar Siswa</title>
 
+        l
         <style>
-            table { border-collapse: collapse; width: 60%; margin: 20px 0; }
-            th, td { border: 1px solid #ccc; padding: 8px 12px; text-align:left; }
-            th { background-color: #f2f2f2; }
+            table { border-collapse: collapse; width: 60%; margin: 20px 0; background-color: #D8FFC5; }
+            th, td { border: 1px solid #ccc; padding: 8px 10px; text-align:left; }
+            th { background-color: #30AFFF; }
         </style>
 
 </head>
@@ -36,7 +37,8 @@ $query = mysqli_query($koneksi, $sql);
             <th>ID</th>
             <th>Nama</th>
             <th>email</th>
-            <th>kelas<th>
+            <th>kelas</th>
+            <th>alamat</th>
         </tr>
     </thead>
     <tbody>
@@ -51,6 +53,7 @@ $query = mysqli_query($koneksi, $sql);
                 <td><?= $siswa['nama']; ?></td>
                 <td><?= $siswa['email']; ?> </td>
                 <td><?= $siswa['kelas']; ?> </td>
+                <td><?=$siswa['alamat']; ?> </td>
             </tr>
         <?php endwhile; ?>
     </tbody>

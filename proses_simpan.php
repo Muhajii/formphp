@@ -5,15 +5,18 @@ include "koneksi.php";
 $nama = $_POST['nama'];
 $email = $_POST['email'];
 $kelas = $_POST['kelas'];
+$alamat = $_POST['alamat'];
 
-$sql = "INSERT INTO siswa (nama, email, kelas)
+$sql = "INSERT INTO siswa (nama, email, kelas, alamat)
 
-VALUES ('$nama', '$email', '$kelas')";
+VALUES ('$nama', '$email', '$kelas', '$alamat')";
 
 mysqli_query($koneksi, $sql);
 echo "Data berhasil disimpan.";
 
-<a href="mysqlifetchcontohrapih.php" target="_blank">lihat tabel disini</a>
+
+
+
 
 
 
