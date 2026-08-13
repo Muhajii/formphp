@@ -13,4 +13,8 @@ VALUES ('$nama', '$email', '$kelas')";
 mysqli_query($koneksi, $sql);
 echo "Data berhasil disimpan.";
 
+<a href="mysqlifetchcontohrapih.php" target="_blank">lihat tabel disini</a>
+
+
+
 ?>
