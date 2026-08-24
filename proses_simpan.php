@@ -17,6 +17,11 @@ echo "Data berhasil disimpan.";
 
 
 
+echo '<a href="mysqlifetchcontohrapih.php">Lihat database</a>';
+
+
+
+
 
 
 
