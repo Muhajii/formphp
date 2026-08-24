@@ -64,7 +64,7 @@ $query = mysqli_query($koneksi, "SELECT * FROM siswa");
 
     <h2>Daftar Siswa</h2>
 
-    <a href="tambah.php" class="btn btn-tambah">
+    <a href="form.php" class="btn btn-tambah">
         + Tambah Siswa Baru
     </a>
 

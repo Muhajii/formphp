@@ -17,7 +17,7 @@ echo "Data berhasil disimpan.";
 
 
 
-echo '<a href="mysqlifetchcontohrapih.php">Lihat database</a>';
+echo '<a href="dbupdatedandelete.php">Lihat database</a>';
 
 
 
